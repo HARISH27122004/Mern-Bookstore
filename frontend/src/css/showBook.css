@@ -1,0 +1,83 @@
+.container1 {
+  width: 90%;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.h1-show {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.back-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.backLink {
+  background-color: #28a745;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  justify-content: center;
+}
+
+.backLink:hover {
+  background-color: #218838;
+  color: white;
+}
+
+.back-button-icon {
+  font-size: 16px;
+}
+
+.inside-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inside-container div {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span:first-child {
+  font-weight: bold;
+  color: #007bff;
+  margin-right: 20px;
+}
+
+span:last-child {
+  color: #555;
+}
+
+@media (min-width: 601px) {
+  .inside-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .inside-container {
+    width: 100%;
+  }
+}

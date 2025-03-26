@@ -1,0 +1,66 @@
+.container3 {
+  width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#inner-div {
+  text-align: center;
+}
+
+h3 {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.delete-btn {
+  width: 150px;
+  height: 50px;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
+
+@media (max-width: 480px) {
+  .container3 {
+    width: 90%;
+  }
+
+  .delete-btn,
+  .back-btn {
+    width: 100%;
+  }
+
+  .button-container {
+    flex-direction: column;
+  }
+}
