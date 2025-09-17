@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 import axios from 'axios'
 import '../css/home.css'
 
-
 const Home = () => {
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(false);
