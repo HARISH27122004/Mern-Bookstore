@@ -37,7 +37,7 @@ const EditBook = () => {
       publishYear,
     };
     setLoading(true);
-    axios.put(`http://localhost:5555/books/${id}`, data)
+    axios.put(`https://mern-bookstore-m0tg.onrender.com/books/${id}`, data)
       .then(() => {
         setLoading(false);
         navigate('/');

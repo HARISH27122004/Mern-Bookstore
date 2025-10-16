@@ -20,7 +20,7 @@ const CreateBook = () => {
       publishYear,
     };
     setLoading(true);
-    axios.post('http://localhost:5555/books', data)
+    axios.post('https://mern-bookstore-m0tg.onrender.com/books', data)
       .then(() => {
         setLoading(false);
         navigate('/');

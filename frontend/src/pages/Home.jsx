@@ -9,7 +9,7 @@ const Home = () => {
     const [loading, setLoading] = useState(false);
     useEffect(() => {
         setLoading(true);
-        axios.get('http://localhost:5555/books')
+        axios.get('https://mern-bookstore-m0tg.onrender.com/books')
             .then((res) => {
                 setBooks(res.data);
                 setLoading(false);
